@@ -1,0 +1,30 @@
+{
+  "name": "novacart-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enterprise cloud-native e-commerce platform.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.5"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "10.9.2"
+    }
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  }
+}
